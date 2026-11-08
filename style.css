@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body {
+    width: 100vh;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}  
+.meu-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    position: relative;
+} 
+.meu-header img:nth-child(1) {
+height: 45px;
+object-fit: contain;
+font-size: 30px;
+}               
+.meu-header img:nth-child(2), .meu-header img:nth-child(3)  {
+    height: 40px;
+    cursor: pointer;
+    margin-right: 5px;
+    gap: 10px;
+    margin-left: 20%;
+}
+.meu-main {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 650px;
+    margin: 0 auto;
+}
+.meu-main img[src*="mãorobótica2"] {
+    position: absolute;
+    left: 100%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    height: 480px;
+    z-index: 2;
+}
+.meu-main img[src*="INSURE"] {
+    position: absolute;
+    left: 100%;
+    top: 80%;
+    transform: translate(-50%, -55%);
+    width: 650px;
+    z-index: 2;
+}
+.meu-main img[src*="100K + Canadians protect their Home Travel Comercial Life"] {
+    position: absolute;
+    left: 80px;
+    top: 20%;
+    width: 240px;
+}
+.meu-main img[src*="Wer help Canadians find the right coverage for the things that.png"] {
+    position: absolute;
+    margin-left: 100%;
+    top: 90%;
+    transform: translate(-50%);
+    width: 380px;
+}
+.meu-main img[src*="COPIACHAVEIRO"] {
+    position: absolute;
+    left: 95%;
+    top: 25%;
+    width: 220px; 
+    z-index: 2;
+}
+.meu-main img[src*="Rectangle 9"] {
+position: absolute;
+left: 160%;
+right: 0;
+top:10%;
+width: 300px;
+height: 250px;
+}
+.meu-footer {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.meu-footer img[src*="Rectangle 4"] {
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+    width: 160px;
+    z-index: 1;
+}
+.meu-footer img[src*="umbrella 3"] {
+    position: absolute;
+    left: 21%;
+    bottom: 50px;
+    top: -17%;
+    width: 100px;
+    z-index: 2;
+}
+.meu-footer img[src*="logo max"] {
+    position: absolute;
+    right: 140px;
+    bottom: 30px;
+    width: 110px;
+    left: 180%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
